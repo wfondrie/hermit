@@ -8,10 +8,11 @@ li {
     margin: 0 0 20px 0;
 }
 
-strong {
-    color: $theme; 
+strong>em {
+    font-style:normal;
+    font-weight:strong;
+    text-decoration:underline;
 }
-
 
 /* Webkit Scrollbar Customize */
 ::-webkit-scrollbar {
