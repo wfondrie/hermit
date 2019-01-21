@@ -1,8 +1,8 @@
-name = "Hermit"
+name = "Recluse"
 license = "MIT"
-licenselink = "https://github.com/Track3/hermit/blob/master/LICENSE"
-description = "A minimal and fast hugo theme for bloggers."
-homepage = "https://github.com/Track3/hermit"
+licenselink = "https://github.com/wfondrie/recluse/LICENSE"
+description = "A modification of the Hugo theme, Hermit"
+homepage = "https://github.com/wfondrie/recluse"
 tags = ["blog", "minimal", "dark", "responsive"]
 features = [
   "single column",
@@ -14,5 +14,5 @@ features = [
 min_version = 0.43
 
 [author]
-  name = "Track3"
-  homepage = "https://www.xxxlbox.com"
+  name = "wfondrie"
+  homepage = "https://willfondrie.com"

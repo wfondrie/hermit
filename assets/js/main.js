@@ -52,10 +52,5 @@ if (header !== null) {
   listen('#toc-btn', "click", toggleToc);
   listen('#img-btn', "click", showImg);
   listen('.bg-img', "click", hideImg);
-
-    if (mobileMenuVisible == true) {
-      toggleMobileMenu();
-    }
-  }, 250));
 }
 
