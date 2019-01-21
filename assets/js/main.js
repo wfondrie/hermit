@@ -14,6 +14,8 @@ const listen = (ele, e, callback) => {
  */
 // Mobile Menu Toggle
 //
+let header = document.getElementById('site-header');
+let lastScrollPosition = window.pageYOffset;
 let mobileMenuVisible = false;
 
 const toggleMobileMenu = () => {
