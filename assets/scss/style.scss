@@ -3,6 +3,12 @@
 @import "syntax.scss";
 @import "animate.scss";
 
+/* WEF additions */
+li {
+    margin: 0 0 20px 0;
+}
+
+
 /* Webkit Scrollbar Customize */
 ::-webkit-scrollbar {
   width: 8px;
