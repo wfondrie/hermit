@@ -1,18 +1,15 @@
-<header id="site-header" class="animated slideInUp faster">
+<header id="site-header" class="animated slideInUp">
     <!-- highlight.js support -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/atom-one-dark-reasonable.min.css">
     <!-- Academicons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
     <div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
 					<a href="{{.Site.BaseURL}}">{{ .Site.Title }}</a>
 				</div>
 				<nav class="site-nav hide-in-mobile">
-					{{- range .Site.Menus.main }}
-					<a href="{{ .URL | absLangURL}}">{{ .Name }}</a>
-					{{- end }}
+					{{ partialCached "menu.html" . }}
 				</nav>
 			</div>
 			<div class="hdr-right hdr-icons">

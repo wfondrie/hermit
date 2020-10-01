@@ -18,10 +18,10 @@ blogdown
 Run this command from the root of your Hugo directory (Git needs to be 
 installed):
 
+
 ```bash
 $ git clone https://github.com/wfondrie/recluse.git themes/recluse
 ```
-
 
 For configuration details, refer to the original 
 [Hermit documentaiton](https://github.com/Track3/hermit)
@@ -33,4 +33,5 @@ For configuration details, refer to the original
 * [normalize.css](https://necolas.github.io/normalize.css/) - [MIT](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
 * [animate.css](https://daneden.github.io/animate.css/) - [MIT](https://github.com/daneden/animate.css/blob/master/LICENSE)
 * [feather](https://feathericons.com/) - [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)
+* [code-copy.js](assets/js/code-copy.js) - [Tom Spencer](https://www.fiznool.com/blog/2018/09/14/adding-click-to-copy-buttons-to-a-hugo-powered-blog/)
 

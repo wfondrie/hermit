@@ -1,33 +1,30 @@
-# Translations for English
+# Translations for Italian
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # 404.html
 #
 [notFound]
-other = "Oops, page not found…"
+other = "Oops, pagina non trovata…"
 
 [home]
 other = "Home"
 
 [archives]
-other = "Archives"
+other = "Archivi"
 
 # posts/single.html
 #
-[seeAlso]
-other = "See Also"
-
 [wordCount]
-other = "{{ .WordCount }} Words"
+other = "{{ .WordCount }} Parole"
 
 [tableOfContents]
-other = "Table of Contents"
+other = "Sommario"
 
 [newer]
-other = "Newer"
+other = "Prossimo"
 
 [older]
-other = "Older"
+other = "Precedente"
 
 # partials/header.html
 #
@@ -35,4 +32,4 @@ other = "Older"
 other = "Menu"
 
 [featuredImage]
-other = "Featured Image"
+other = "Immagine in primo piano"

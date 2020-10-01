@@ -1,13 +1,13 @@
-# Translations for English
+# Translations for French
 # https://gohugo.io/content-management/multilingual/#translation-of-strings
 
 # 404.html
 #
 [notFound]
-other = "Oops, page not found…"
+other = "Oh non! page non-trouvée…"
 
 [home]
-other = "Home"
+other = "Accueil"
 
 [archives]
 other = "Archives"
@@ -15,19 +15,19 @@ other = "Archives"
 # posts/single.html
 #
 [seeAlso]
-other = "See Also"
+other = "Voir également"
 
 [wordCount]
-other = "{{ .WordCount }} Words"
+other = "{{ .WordCount }} mots"
 
 [tableOfContents]
-other = "Table of Contents"
+other = "Sommaire"
 
 [newer]
-other = "Newer"
+other = "Suivant"
 
 [older]
-other = "Older"
+other = "Précédent"
 
 # partials/header.html
 #
@@ -35,4 +35,4 @@ other = "Older"
 other = "Menu"
 
 [featuredImage]
-other = "Featured Image"
+other = "Image sélectionnée"

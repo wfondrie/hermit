@@ -16,6 +16,21 @@ const listen = (ele, e, callback) => {
 //
 let header = document.getElementById('site-header');
 let lastScrollPosition = window.pageYOffset;
+
+const autoHideHeader = () => {
+  let currentScrollPosition = Math.max(window.pageYOffset, 0);
+  if (currentScrollPosition > lastScrollPosition) {
+    header.classList.remove('slideInUp');
+    header.classList.add('slideOutDown');
+  } else {
+    header.classList.remove('slideOutDown');
+    header.classList.add('slideInUp');
+  }
+  lastScrollPosition = currentScrollPosition;
+}
+
+// Mobile Menu Toggle
+//
 let mobileMenuVisible = false;
 
 const toggleMobileMenu = () => {
@@ -54,5 +69,18 @@ if (header !== null) {
   listen('#toc-btn', "click", toggleToc);
   listen('#img-btn', "click", showImg);
   listen('.bg-img', "click", hideImg);
-}
 
+  document.querySelectorAll('.post-year').forEach((ele)=> {
+    ele.addEventListener('click', () => {
+      window.location.hash = '#' + ele.id;
+    });
+  });
+
+  window.addEventListener('scroll', throttle(() => {
+    autoHideHeader();
+
+    if (mobileMenuVisible == true) {
+      toggleMobileMenu();
+    }
+  }, 250));
+}
